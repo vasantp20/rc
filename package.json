@@ -1,0 +1,34 @@
+{
+  "name": "rh",
+  "version": "1.0.0",
+  "description": "React CLI helper",
+  "main": "index.js",
+  "bin": {
+    "rc": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Git",
+    "CLI"
+  ],
+  "author": "Vasant",
+  "license": "ISC",
+  "dependencies": {
+
+    "arg": "^5.0.1",
+    "chalk": "^4.1.2",
+    "clear": "^0.1.0",
+    "clui": "^0.3.6",
+    "configstore": "^6.0.0",
+    "esm": "^3.2.25",
+    "figlet": "^1.5.2",
+    "fs-extra": "^10.0.0",
+    "inquirer": "^8.1.2",
+    "lodash": "^4.17.21",
+    "minimist": "^1.2.5",
+    "simple-git": "^2.45.1",
+    "touch": "^3.1.0"
+  }
+}
